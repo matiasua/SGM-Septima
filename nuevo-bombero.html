@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGM - Septima Haz-Mat</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+</head>
+<body class="min-h-100 bg-gray-200">
+    <div class="md:flex min-h-screen md:align-top">
+        <aside class="md:w-2/5 lg:w-2/5 xl:w-1/5 bg-blue-600 px-5 py-10">
+            <h1 class="uppercase text-white tracking-wide text-2xl  font-bold mt-2">SGM - Septima Haz-Mat</h1>
+            <p class="mt-30 text-white">Sistema de Fichas Medicas</p>
+            <nav class="mt-8">
+                <a
+                    href="index.html"
+                    class="px-3 py-1 text-white block hover:bg-gray-700 hover:text-yellow-400 "
+                >Bomberos</a>
+                <a
+                    href="nuevo-bombero.html"
+                    class="px-3 py-1 text-white block hover:bg-gray-900 mt-2 hover:text-yellow-400 bg-gray-700"
+                >Nuevo Bombero</a>
+            </nav>
+        </aside> <!--sidebar-->
+        <main class="md:w-3/5  xl:w-4/5 px-5 py-10 bg-gray-200">
+            <h2 class="text-3xl font-light text-center">Nuevo Bombero</h2>
+
+            <div class="flex flex-col mt-10 items-center">
+                <div class="-my-2 py-2 overflow-x-auto sm:-mx-6 sm:px-6 lg:-mx-8 lg:px-8 w-10/12 md:w-8/12 lg:w-6/12">
+                    <div class=" shadow overflow-hidden sm:rounded-lg border-b border-gray-200 ">
+                        <form id="formulario" class="bg-white p-3">
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="nombre">Nombre</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="nombre"
+                                    name="nombre"
+                                    type="text"
+                                    placeholder="Nombre Bombero"
+                                />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="apellidop">Apellido Paterno</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="apellidop" name="apellidop" type="text" placeholder="Apellido Paterno" />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="apellidom">Apellido Materno</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="apellidom" name="apellidom" type="text" placeholder="Apellido Materno" />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="rut">Rut</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="rut" name="rut" type="text" placeholder="Rut" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="registrocpo">Registro Cuerpo</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="registrocpo" name="registrocpo" type="text" placeholder="Registro Cuerpo" />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="registrocia">Registro Cia</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="registrocia" name="registrocia" type="text" placeholder="Registro Cuerpo" />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="edad">Edad</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="edad" name="edad" type="text" placeholder="Edad" />
+                            </div>
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="sexo">Sexo</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="sexo" name="sexo" type="text" placeholder="M o F" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="telefono">Teléfono</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="telefono"
+                                    name="telefono"
+                                    type="tel"
+                                    placeholder="Teléfono Bombero"
+                                />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="direccion">Direccion</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="direccion"
+                                    name="direccion"
+                                    type="text"
+                                    placeholder="Direccion Bombero"
+                                />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="alergico">Alergico</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="alergico" name="alergico" type="text" placeholder="Alergico" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="peso">Peso (kg)</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="peso" name="peso" type="text" placeholder="Peso en KG" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="estatura">Estatura (cm)</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="estatura" name="estatura" type="text" placeholder="Estatura en cm" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="patologia">Patologia</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="patologia" name="patologia" type="text" placeholder="Patologia" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="hipertenso">Hipertenso</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="hipertenso" name="hipertenso" type="text" placeholder="Hipertenso" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="diabetico">Diabetico</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="diabetico" name="diabetico" type="text" placeholder="Diabetico" />
+                            </div>
+
+                            <div class="mb-4">
+                                <label class="block text-gray-700 text-sm font-bold mb-2" for="cirugias">Cirugias</label>
+                                <input
+                                    class="appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="cirugias" name="cirugias" type="text" placeholder="Cirugias" />
+                            </div>
+
+
+                            <input
+                                type="submit"
+                                class="bg-teal-600 hover:bg-teal-900 w-full mt-5 p-2 text-white uppercase font-bold"
+                                value="Agregar Bombero"
+                            />
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+    <script src="js/nuevobombero.js"></script>
+</body>
+</html>

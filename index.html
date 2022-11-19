@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SGM - Septima Haz-Mat</title>
+    <link rel="stylesheet" href="css/tailwind.min.css">
+</head>
+<body class="min-h-100 bg-gray-200">
+    <div class="md:flex min-h-screen md:align-top">
+        <aside class="md:w-2/5 lg:w-2/5 xl:w-1/5 bg-blue-600 px-5 py-10">
+            <h1 class="uppercase text-white tracking-wide text-2xl  font-bold mt-2">SGM - Septima Haz-Mat</h1>
+            <p class="mt-30 text-white">Sistema de Fichas Medicas</p>
+            <nav class="mt-8">
+                <a
+                    href="/"
+                    class="px-3 py-1 text-white block hover:bg-gray-900 hover:text-yellow-400 bg-gray-700"
+                >Bomberos</a>
+                <a
+                    href="nuevo-bombero.html"
+                    class="px-3 py-1 text-white block hover:bg-gray-900 mt-2 hover:text-yellow-400"
+                >Nuevo Bombero</a>
+            </nav>
+        </aside> <!--sidebar-->
+        <main class="md:w-3/5  xl:w-4/5 px-5 py-10 bg-gray-200">
+
+
+
+
+            <h2 class="text-3xl font-light text-center">Bomberos</h2>
+
+            <!-- <p class="text-center text-gray-600 mt-10">No hay Bomberos</p> -->
+
+            <div class="flex flex-col mt-10">
+                <div class="py-2 overflow-x-auto">
+                  <div class="align-middle inline-block min-w-full shadow overflow-hidden sm:rounded-lg border-b border-gray-200">
+                    <table class="min-w-full">
+                        <thead class="bg-gray-100 ">
+                            <tr>
+                                <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Nombre
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Apellido Paterno
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Apellido Materno
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Rut
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Registro Cuerpo
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Registro Cia
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Edad
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Sexo
+                                </th>
+                                <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Teléfono
+                                </th>
+                                <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                        Direccion
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Alergico
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Peso (kg)
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Estatura (cm)
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Patologia
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Hipertenso
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Diabetico
+                                </th>
+                                <th
+                                    class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Cirugias
+                                </th>
+                                <th class="px-6 py-3 border-b border-gray-200  text-left text-xs leading-4 font-medium text-gray-600 uppercase tracking-wider">
+                                    Acciones
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody id="listado-bomberos" class="bg-white"></tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
